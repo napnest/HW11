@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Phone phoneOne = new Phone(54321, "Huawei", 2.5, "Japan");
+        Phone phoneOne = new Phone(54321, "Huawei", 2.5);
         System.out.println("Номер телефона: " + phoneOne.phoneNumber + ", Модель телефона: " +
                 phoneOne.phoneModel + ", Вес телефона: " + phoneOne.phoneWeight + ", Сделано в " +
                 Phone.madeIn);
