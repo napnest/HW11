@@ -9,6 +9,7 @@ public class Phone {
         this.phoneNumber=phoneNumber;
         this.phoneModel=phoneModel;
         this.phoneWeight=phoneWeight;
+        madeIn="South Korea";
     }
     void receiveCall(String name){
         System.out.println("Звонит абонент "+name);

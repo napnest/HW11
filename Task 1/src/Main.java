@@ -12,6 +12,7 @@ public class Main {
         System.out.println("Номер телефона: " + phoneTwo.phoneNumber + ", Модель телефона: " +
                 phoneTwo.phoneModel + ", Вес телефона: " + phoneTwo.phoneWeight + ", Сделано в " +
                 Phone.madeIn);
-
+        phoneOne.receiveCall("Иван",23145);
+        phoneTwo.receiveCall("Петр");
     }
 }
